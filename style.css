@@ -41,6 +41,13 @@ h1 {
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.column {
+    flex-flow: column;
+    align-self: flex-end;
+    flex-grow: 1;
 }
 
 .number, .number-0, .number-equal {
@@ -66,5 +73,30 @@ h1 {
 }
 
 .number-equal {
+    background-color: orange;
+    color: white;
+    border-color: black;
+}
+
+.symbol, .symbol-c {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    font-family: ;
+    flex-wrap: wrap;
+    border: solid 1px;
+    background-color: darkcyan;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-top: transparent;
+    border-right: transparent;
+    color: white;
+    border-color: black;
+}
+
+.symbol-c {
     background-color: orange;
 }
