@@ -44,10 +44,10 @@ h1 {
 }
 
 .number, .number-0, .number-equal {
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 25px;
     font-family: ;
     flex-wrap: wrap;
@@ -61,8 +61,8 @@ h1 {
 }
 
 .number-0 {
-    padding-left: 47px;
-    padding-right: 47px;
+    padding-left: 51px;
+    padding-right: 51px;
 }
 
 .number-equal {
