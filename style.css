@@ -4,6 +4,35 @@
     box-sizing: border-box;
 }
 
+h1 {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 .container {
-    
+    background-color: gainsboro;
+    width: 300px;
+    height: 420px;
+    margin-top: 250px;
+    margin-left: 815px;
+    margin-right: 815px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    background-color: black;
+    color: green;
+    font-size: 35px;
+    text-align: end;
+    width: 300px;
+    height: 75px;
+}
+
+.row-2 {
+    padding-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
 }
