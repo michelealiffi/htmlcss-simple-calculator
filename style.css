@@ -31,6 +31,7 @@ h1 {
     height: 75px;
     padding-right: 15px;
     padding-top: 15px;
+    padding-bottom: 15px;
     font-family:seven segment;font-style:normal;font-weight:400;src:local('Seven Segment'),url('https://fonts.cdnfonts.com/s/71640/Seven Segment.woff') format('woff')
 }
 
@@ -38,7 +39,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     width: 200px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 20px;
     margin-bottom: 20px;
     flex-grow: 1;
@@ -47,7 +48,6 @@ h1 {
 .column {
     flex-flow: column;
     align-self: flex-end;
-    flex-grow: 1;
 }
 
 .number, .number-0, .number-equal {
